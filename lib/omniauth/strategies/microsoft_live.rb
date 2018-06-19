@@ -14,7 +14,8 @@ module OmniAuth
 
       option :authorize_params, {
         :response_type => 'code',
-        :redirect_uri => 'https://919058e6.ngrok.io/api/v1/authentications'
+        :redirect_uri => 'https://919058e6.ngrok.io/api/v1/authentications',
+        :scope => DEFAULT_SCOPE
       }
 
       option :name, 'microsoft_live'
